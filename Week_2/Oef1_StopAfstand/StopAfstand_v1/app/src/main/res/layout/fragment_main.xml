@@ -1,0 +1,92 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity$PlaceholderFragment">
+
+    <TextView android:text="@string/snelheid" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewSnelheid" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextSnelheid"
+        android:layout_below="@+id/textViewSnelheid"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/reactietijd"
+        android:id="@+id/textViewReactietijd"
+        android:layout_below="@+id/editTextSnelheid"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="25dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextReactieTijd"
+        android:layout_below="@+id/textViewReactietijd"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/wegtype"
+        android:id="@+id/textViewWegtype"
+        android:layout_below="@+id/editTextReactieTijd"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="25dp" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/droogWegdek"
+        android:id="@+id/radioButtonDroogWegdek"
+        android:layout_below="@+id/textViewWegtype"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/natWegdek"
+        android:id="@+id/radioButtonNatWegdek"
+        android:layout_below="@+id/radioButtonDroogWegdek"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/stopafstandBerekenen"
+        android:id="@+id/buttonStopafstand"
+        android:layout_below="@+id/radioButtonNatWegdek"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="25dp"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/stopafstand"
+        android:id="@+id/textViewStopafstand"
+        android:layout_below="@+id/buttonStopafstand"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="25dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/textViewStopafstandWaarde"
+        android:layout_below="@+id/textViewStopafstand"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Bmi Calculator</string>
+    <string name="hello_world">YOUR INPUT</string>
+    <string name="action_settings">Settings</string>
+    <string name="yourHeight">Your height (m)</string>
+    <string name="yourMass">Your mass (kg)</string>
+    <string name="enterInfo">enter your info first</string>
+    <string name="category">Category:</string>
+    <string name="index">Index:</string>
+    <string name="yourBmiInfo">YOUR BMI INFO:</string>
+    <string name="update">Update</string>
+
+</resources>

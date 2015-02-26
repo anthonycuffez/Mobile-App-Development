@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">StopAfstand</string>
+    <string name="action_settings">Settings</string>
+    <string name="textViewSelecteerUwSnelheid">Selecteer uw snelheid:</string>
+    <string name="textViewSnelheid">200 km/u </string>
+    <string name="textViewSelecteerUwReactietijd">Selecteer uw reactietijd:</string>
+    <string name="textViewReactietijd">5 sec</string>
+    <string name="textViewSelecteerHetWegtype">Selecteer het wegtype:</string>
+    <string name="radioButtonDroog">Het wegdek ligt droog</string>
+    <string name="radioButtonNat">Het wegdek ligt nat</string>
+    <string name="buttonBereken">Bereken de stopafstand</string>
+    <string name="textViewDeStopafstandIs">De stopafstand is:</string>
+    <string name="textViewResult">0 meter</string>
+
+</resources>
